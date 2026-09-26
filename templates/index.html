@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Video → Animation</title>
+
+<style>
+body{
+    font-family:system-ui;
+    margin:0;
+    background:#111;
+    color:#fff;
+}
+
+.box{
+    max-width:620px;
+    margin:50px auto;
+    padding:24px;
+}
+
+.card{
+    background:#1d1d1d;
+    border-radius:18px;
+    padding:25px;
+}
+
+h1{
+    font-size:30px;
+    margin-top:0;
+}
+
+input,button{
+    width:100%;
+    box-sizing:border-box;
+    padding:14px;
+    margin-top:12px;
+    border-radius:12px;
+}
+
+input{
+    background:#292929;
+    color:#fff;
+    border:1px solid #444;
+}
+
+button{
+    border:0;
+    background:#fff;
+    color:#111;
+    font-weight:700;
+    font-size:16px;
+}
+
+.note{
+    color:#bbb;
+    font-size:14px;
+    line-height:1.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+<div class="card">
+
+<h1>🎬 Video → Animation</h1>
+
+<p>
+Upload a video and create a lightweight cartoon/animation-style version.
+</p>
+
+<form method="post" enctype="multipart/form-data">
+
+<input
+type="file"
+name="video"
+accept="video/*"
+required
+>
+
+<button type="submit">
+Convert to Animation
+</button>
+
+</form>
+
+<p class="note">
+No paid API is required. There is no artificial duration limit in this app.
+Processing speed depends on your device/server.
+</p>
+
+</div>
+</div>
+
+</body>
+  </html>
